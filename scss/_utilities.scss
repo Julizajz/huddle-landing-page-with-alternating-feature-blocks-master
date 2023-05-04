@@ -24,7 +24,7 @@
     }
 
     &-light:hover{
-        background-color: $bg-pink;
+        filter: brightness(150%);
     }
 
     &-pink{
@@ -32,6 +32,9 @@
         background-color: $bg-pink;
         color: #fff;
         margin-top: 25px;
+    }
+    &-pink:hover{
+        filter: brightness(150%);
     }
 
     &-lg{
@@ -42,4 +45,15 @@
         font-size: 20px;
     }
 }  
+
+
+.copyright{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.first-col{
+    width: 305px;
+}
 
