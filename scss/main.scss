@@ -120,7 +120,7 @@ aside{
         border-radius: 20px;
         text-align: center;
         position: relative;
-        top: 110px;
+        top: 100px;
         z-index: 1;
 
         h3{
@@ -130,24 +130,50 @@ aside{
     }
 }
 
-footer{
+.footer{
     background-color: $dark-cyan;
-    height: 418px;
-    color: #fff;
     font-family: $font-body;
+    height: 540px;
+    color: #fff;
     
-    .footer-logo{
-        filter: invert(99%) sepia(1%) saturate(7%) hue-rotate(299deg) brightness(104%) contrast(100%);filter: invert(99%) sepia(1%) saturate(7%) hue-rotate(299deg) brightness(104%) contrast(100%);
-    }
+
 
     .footer-container{
-        max-width: 1248px;
+        max-width: $website-width;
         margin: auto;
-        display: flex;
-        justify-content: center;
+        padding-top: 10rem;
+
+
+        .white-logo{
+            margin-bottom: 1.2rem;
+        }
         
-
-
-       
+        .footer-group{
+           
+           display: flex;
+           justify-content: space-between;
+            
+           .fa-ul li{
+            margin-bottom: 2rem;
+           }
+            
+        }
     }
+    
+
 }
+
+
+// Media Query
+
+@media only screen and (max-width: 1070px) {
+    main{
+        display: flex;
+        flex-direction: column;
+
+        .main-img{
+            background-image: url(/images/bg-hero-mobile.svg);
+        }
+    }
+  }
+  
