@@ -173,6 +173,9 @@ aside .aside-container h3 {
 .footer .footer-container .footer-group .fa-ul li {
   margin-bottom: 2rem;
 }
+.footer .footer-container .footer-group .fa-brands {
+  margin: 0 1rem;
+}
 
 @media only screen and (max-width: 1070px) {
   main {
