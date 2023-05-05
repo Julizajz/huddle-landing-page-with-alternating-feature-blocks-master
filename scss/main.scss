@@ -156,6 +156,11 @@ aside{
            .fa-ul li{
             margin-bottom: 2rem;
            }
+
+          .fa-brands{
+            margin: 0 1rem;
+         
+          }
             
         }
     }
@@ -172,7 +177,7 @@ aside{
         flex-direction: column;
 
         .main-img{
-            background-image: url(/images/bg-hero-mobile.svg);
+            background-image: url(/images/bg-hero-mobile.svg)
         }
     }
   }
