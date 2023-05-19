@@ -1,5 +1,6 @@
 .container {
   max-width: 1280px;
+  padding: 0 1.5rem;
   margin: auto;
 }
 
@@ -177,13 +178,9 @@ aside .aside-container h3 {
   margin: 0 1rem;
 }
 
-@media only screen and (max-width: 1070px) {
-  main {
-    display: flex;
-    flex-direction: column;
-  }
-  main .main-img {
-    background-image: url(/images/bg-hero-mobile.svg);
+@media only screen and (max-width: 1124px) {
+  .main-h {
+    font-size: 25px;
   }
 }
 
