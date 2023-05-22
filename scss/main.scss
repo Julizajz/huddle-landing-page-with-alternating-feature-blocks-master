@@ -183,21 +183,35 @@ aside{
         flex-direction: column;
         margin-top: 1rem;
        
-     
         .main-content{
             display: flex;
             flex-direction: column;
             align-items: center;
-
+            height: 245px;
+            
             h1, p {
                 text-align: center;
             }
+
+            .main-h{
+                font-size: 25px;
+
+            }
+
+            .main-p{
+                font-size: 16px;
+            }
+        }
+
+        .main-img img{
+            height: 309px;
+            width: 368px;
         }
     }
 
-   .main-h{
-    font-size: 25px;
-   }
+    // alternating blocks
+    
+
 
   }
   
