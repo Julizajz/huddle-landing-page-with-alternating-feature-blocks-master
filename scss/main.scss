@@ -141,7 +141,7 @@ aside{
     .footer-container{
         max-width: $website-width;
         margin: auto;
-        padding-top: 10rem;
+        padding: 10rem 1.5rem 0;
 
 
         .white-logo{
@@ -172,6 +172,29 @@ aside{
 // Media Query
 
 @media only screen and (max-width: 1124px) {
+
+    // header{
+    //     background: url(../images/bg-hero-mobile.svg) no-repeat;
+    //     background-color: $pale-cyan;
+
+    // }
+
+    main{
+        flex-direction: column;
+        margin-top: 1rem;
+       
+     
+        .main-content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1, p {
+                text-align: center;
+            }
+        }
+    }
+
    .main-h{
     font-size: 25px;
    }
