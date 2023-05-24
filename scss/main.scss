@@ -208,9 +208,16 @@ aside{
             width: 368px;
         }
     }
-
+    // Section info
+    section{
+        max-width: 335px;
+    }
     // alternating blocks
-    
+    .card{
+        flex-direction: column;
+        
+    }
+
 
 
   }

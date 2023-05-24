@@ -202,6 +202,12 @@ aside .aside-container h3 {
     height: 309px;
     width: 368px;
   }
+  section {
+    max-width: 335px;
+  }
+  .card {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
